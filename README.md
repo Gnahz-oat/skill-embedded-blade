@@ -1,8 +1,8 @@
-# 嵌入式之人
+# 嵌入式开发之刃
 
 Codex skill：在嵌入式软件、固件和驱动任务中，先据实分析与报告修改方案，获得明确授权后才做获批范围内的最小修改与验证。
 
-安装目录：`~/.codex/skills/embedded-person/`。Codex 界面显示名为“嵌入式之人”；内部调用标识为 `$embedded-person`。
+安装目录：`~/.codex/skills/embedded-person/`。Codex 界面显示名为“嵌入式开发之刃”；内部调用标识为 `$embedded-person`。
 
 新功能开发：先只读检查相关实现，再一次问一个仍影响实现的关键问题；信息足够时给出修改方案并等待授权。
 
