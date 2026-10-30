@@ -4,10 +4,10 @@ Codex skill：用于嵌入式软件、固件和驱动任务。先依据实际源
 
 安装目录：`~/.codex/skills/embedded-blade/`。中文显示名“嵌入式之刃”，英文名 **Embedded Blade**，调用标识 `$embedded-blade`。按任务描述自动匹配已启用。
 
-GitHub 仓库地址保留 `Gnahz-oat/skill-embedded-person`，避免已有链接失效；技能名称、安装目录和调用名已迁移到 `embedded-blade`。从仓库根目录安装时指定新名称：
+GitHub 仓库地址为 `Gnahz-oat/skill-embedded-blade`；技能名称、安装目录和调用名为 `embedded-blade`。从仓库根目录安装时指定新名称：
 
 ```sh
-python <skill-installer目录>/scripts/install-skill-from-github.py --repo Gnahz-oat/skill-embedded-person --path . --name embedded-blade
+python <skill-installer目录>/scripts/install-skill-from-github.py --repo Gnahz-oat/skill-embedded-blade --path . --name embedded-blade
 ```
 
 旧版升级：先检查并保存旧安装的本地改动，再安装新版；替换全局指令中的旧路径与 `$embedded-person`。确认新版有效后移出旧安装目录，避免同时启用两套规则。不要覆盖现有工程文件或自动改动其他项目的指令。
